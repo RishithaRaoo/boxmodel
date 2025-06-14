@@ -1,0 +1,32 @@
+
+    *{
+        background-color:blueviolet
+    }
+    #main{
+        background-color: aqua;
+        color:rgb(187, 0, 255)
+    }
+    
+    .main{
+        background-color: aquamarine;
+    }
+    .main1{
+        color:rgb(200, 196, 255)
+    }
+    .main2{
+        color:rgb(200, 196, 255)
+    }
+    .main3{
+        background-color: aqua;
+    }
+    #main4{
+background-color: rgb(255, 0, 212);
+    }
+.main6
+{
+    background-color: aqua;
+}
+.main7
+{
+    background-color: rgb(255, 0, 212);
+}
