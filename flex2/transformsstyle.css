@@ -1,0 +1,40 @@
+.container{
+    width:500px;
+    height:500px;
+    border:2px solid;
+    border-radius: 10px;
+    background-color: lightgreen;
+}
+.child2{
+    width:200px;
+    height:200px;
+    /* border:2px solid; */
+    border-radius: 15px;
+   margin-top: 100px;
+   margin-left: 150px;
+   background-color: deepskyblue;
+   transition: all 2s ease;
+   transition-delay: all 2s ease;
+}
+button{
+    padding: 10px;
+}
+button:hover{
+    background-color: deeppink;
+}
+.r:hover ~.child2{
+    transform: translate(200px);
+
+}
+.rr:hover ~.child2{
+    transform: scale(0.5);
+}
+.rrr:hover ~.child2{
+    transform: rotate(360deg);
+}
+.rrrr:hover ~.child2{
+    transform: skew(30deg,30deg);
+}
+h2{
+    color: darkgreen;
+}
